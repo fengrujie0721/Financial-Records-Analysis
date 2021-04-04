@@ -7,12 +7,14 @@ with open(csvpath) as csvfile:
     csvreader=csv.reader(csvfile,delimiter=",")
     csv_header=next(csvreader)
     previous_profit=[]
-    monthnumber=0
+    month=[]
     total_profit_or_loss=0
     for row in csvreader:
+        
+        if row[0] not in month:
+            month.append(row[0])
+            monthnumber=len(month)      
         total_profit_or_loss+=int(row[1])
-               
-        monthnumber+=1
         previous_profit.append(int(row[1]))
         #change=int(next(row[1]))-int(row[1])
     previous_profit.pop()
