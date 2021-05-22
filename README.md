@@ -22,37 +22,10 @@ The greatest increase in profits (date and amount) over the entire period
 
 The greatest decrease in losses (date and amount) over the entire period
 
-import csv
-import os
-
-from dateutil.parser import parse
-#path to collect data from resources folder
-csvpath=os.path.join("resources","budget_data.csv")
-#read in the csv file
-with open(csvpath) as csvfile:
-    #split the data with commas
-    csvreader=csv.reader(csvfile,delimiter=",")
-    #read the head row first
-    csv_header=next(csvreader)
-    #set list
-    previous_profit=[]
-    month=[]
-    #set variables
-    total_profit_or_loss=0
-    #loop through rows
-    for row in csvreader:
-        #check if row[0] in month
-        if row[0] not in month:
-            #append row[0] to month
-            month.append(row[0])
-            #set monthnumber to length of month
-            monthnumber=len(month)      
-        total_profit_or_loss+=int(row[1])
-        #append integer of row[1] to previous_profit
-        previous_profit.append(int(row[1]))
-        #remove last value of previous_profit
-    previous_profit.pop()
-#read in the csv file    
-with open(csvpath) as csvfile:
-    #split the data with commas
-    csvreader=csv.reader(csvfile,delimiter=",")
+Financial Analysis
+----------------------------
+Total Months: 86
+Total: $38382578
+Average  Change: $-2315.12
+Greatest Increase in Profits: Feb-2012 ($1926159)
+Greatest Decrease in Profits: Sep-2013 ($-2196167)
