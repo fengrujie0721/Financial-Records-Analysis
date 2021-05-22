@@ -2,7 +2,7 @@
 Pybank
 
 
-Creat a Python script for analyzing the financial records of a company. The dataset is composed of two columns: Date and Profit/Losses. Give a set of financial data called budget_data.csv.
+Creat a Python script to analyze the financial records of a company. The dataset is composed of two columns: Date and Profit/Losses. Give a set of financial data called budget_data.csv.
 
 
 
@@ -36,6 +36,8 @@ The greatest decrease in losses (date and amount) over the entire period
 ![image](https://user-images.githubusercontent.com/79819331/119210298-77e15f80-ba79-11eb-8f83-8eb0cbd55ca0.png)
 
 Pypoll
+
+
 Help a small, rural town modernize its vote counting process.
 
 
