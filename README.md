@@ -25,7 +25,8 @@ The greatest increase in profits (date and amount) over the entire period
 The greatest decrease in losses (date and amount) over the entire period
 
 
-![image](https://user-images.githubusercontent.com/79819331/119210290-6c8e3400-ba79-11eb-97f6-f34262340d39.png)
+![image](https://user-images.githubusercontent.com/79819331/119210363-bf67eb80-ba79-11eb-8035-939342eadc65.png)
+
 
 
 
