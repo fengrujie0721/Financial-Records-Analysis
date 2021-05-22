@@ -8,6 +8,8 @@ Creat a Python script for analyzing the financial records of a company. The data
 create a Python script that analyzes the records to calculate each of the following:
 
 
+
+
 The total number of months included in the dataset
 
 
@@ -22,10 +24,10 @@ The greatest increase in profits (date and amount) over the entire period
 
 The greatest decrease in losses (date and amount) over the entire period
 
-Financial Analysis
-----------------------------
-Total Months: 86
-Total: $38382578
-Average  Change: $-2315.12
-Greatest Increase in Profits: Feb-2012 ($1926159)
-Greatest Decrease in Profits: Sep-2013 ($-2196167)
+
+![image](https://user-images.githubusercontent.com/79819331/119210290-6c8e3400-ba79-11eb-97f6-f34262340d39.png)
+
+
+
+![image](https://user-images.githubusercontent.com/79819331/119210298-77e15f80-ba79-11eb-8f83-8eb0cbd55ca0.png)
+
