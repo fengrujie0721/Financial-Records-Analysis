@@ -13,19 +13,19 @@ Create a Python script that analyzes the records to calculate each of the follow
 
 
 
-The total number of months included in the dataset
+The total number of months included in the dataset.
 
 
-The net total amount of "Profit/Losses" over the entire period
+The net total amount of "Profit/Losses" over the entire period.
 
 
 Calculate the changes in "Profit/Losses" over the entire period, then find the average of those changes
 
 
-The greatest increase in profits (date and amount) over the entire period
+The greatest increase in profits (date and amount) over the entire period.
 
 
-The greatest decrease in losses (date and amount) over the entire period
+The greatest decrease in losses (date and amount) over the entire period.
 
 
 ![image](https://user-images.githubusercontent.com/79819331/119210363-bf67eb80-ba79-11eb-8035-939342eadc65.png)
@@ -44,19 +44,19 @@ Help a small, rural town modernize its vote counting process.
 A set of poll data called election_data.csv is composed of three columns: Voter ID, County, and Candidate. Create a Python script that analyzes the votes and calculates each of the following:
 
 
-The total number of votes cast
+The total number of votes cast.
 
 
-A complete list of candidates who received votes
+A complete list of candidates who received votes.
 
 
-The percentage of votes each candidate won
+The percentage of votes each candidate won.
 
 
-The total number of votes each candidate won
+The total number of votes each candidate won.
 
 
-The winner of the election based on popular vote
+The winner of the election based on popular vote.
 
 
 
