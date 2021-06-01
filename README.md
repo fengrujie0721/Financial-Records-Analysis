@@ -8,7 +8,7 @@ Creat a Python script to analyze the financial records of a company. The dataset
 
 ![image](https://user-images.githubusercontent.com/79819331/119210088-6b103c00-ba78-11eb-852b-2827e0ac5be9.png)
 
-create a Python script that analyzes the records to calculate each of the following:
+Create a Python script that analyzes the records to calculate each of the following:
 
 
 
